@@ -11,5 +11,3 @@ This repository provides modules to implement cache coherence SoC's.
 ## License
 
 The ACE repository is released under Solderpad v0.51 (SHL-0.51) see [LICENSE](LICENSE)
-
-prova
