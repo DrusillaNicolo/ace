@@ -215,7 +215,7 @@ axi_mux #(
 );
 
 ccu_fsm #(
-    .DcacheLineWidth ( Cfg.DcacheLineWidth    ),
+    .DcacheLineWidth ( 2*Cfg.AxiDataWidth    ),
     .AxiDataWidth    ( Cfg.AxiDataWidth       ),
     .NoMstPorts      ( Cfg.NoSlvPorts         ),
     .SlvAxiIDWidth   ( Cfg.AxiIdWidthSlvPorts ), // ID width of the slave ports
